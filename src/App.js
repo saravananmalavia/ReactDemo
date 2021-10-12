@@ -15,12 +15,16 @@ class App extends React.Component {
             {id:2, value:0},
             {id:3, value:0},
             {id:4, value:0},
+            {id:5, value:0},
+            {id:6, value:0},
         ],
         resets: [
             {id:1, value:0},
             {id:2, value:0},
-            {id:3, value:0  },
+            {id:3, value:0 },
             {id:4, value:0},
+            {id:5, value:0},
+            {id:6, value:0},
         ]
 
     }
@@ -66,7 +70,7 @@ class App extends React.Component {
         console.log('App - rendered!')  
         return (
         <React.Fragment>
-            <NavBar totalCounters={this.state.counters.filter(c => c.value >0).length}/>
+            <NavBar totalCounters = {this.state.counters.filter(c => c.value >0).length}/>
             <main className="container">
                 <Counters 
                     counters = {this.state.counters}

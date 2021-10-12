@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import 'bootstrap/dist/css/bootstrap.css';
-import App from "./App"
+import MapDemo from "./components/map/mapDemo1"
 
-import FormsDemo5 from "./components/forms/formsDemo5";
+//import ChildComponentEvent from "./components/event/childComponentEvent";
  
 //import Person from './components/event/parentComponent'
-//import Contact from ''App from "./App";
 
 
 
-ReactDOM.render(<FormsDemo5/>, document.getElementById('root'));
+
+ReactDOM.render(<MapDemo/>, document.getElementById('root'));
 
