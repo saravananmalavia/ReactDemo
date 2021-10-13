@@ -56,7 +56,7 @@ class App extends React.Component {
 
 
     handlReset = () => {
-        //console.log('Event Handler called', counterId) ;
+       
        // const counters = this.state.counters.map(c => {c.value = 0; return c;});
         const counters = [...this.state.resets];
         this.setState({ counters: counters});
